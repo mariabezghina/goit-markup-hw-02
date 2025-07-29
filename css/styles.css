@@ -8,7 +8,6 @@ body {
 
 ul {
   list-style: none;
-  padding-left: 0;
   margin: 0;
 }
 
@@ -17,23 +16,13 @@ a {
   color: inherit;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /* Header */
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
+  background-color:  #e7e9fc;
   text-align: center;
   font-weight: 500;
 }
 
-.page-nav {
-  display: flex;
-  align-items: center;
-}
 
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -50,18 +39,12 @@ img {
   color: #2e2f42;
 }
 
-.menu,
-.contacts-list {
-  display: flex;
-  gap: 40px;
-}
 
 .menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   color: #2e2f42;
 }
 
@@ -90,8 +73,6 @@ img {
 /* Hero section */
 .hero-section {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
   background-color: #2e2f42;
   color: #ffffff;
 }
@@ -111,7 +92,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
-  padding: 16px 32px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
@@ -121,14 +101,7 @@ img {
   background-color: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-}
+
 
 .features-section {
   background-color: #ffffff;
@@ -138,7 +111,6 @@ img {
 .features-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .features-title {
@@ -176,7 +148,6 @@ img {
 .card-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .card-item {
@@ -211,7 +182,6 @@ img {
 .project-list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .project-item {
