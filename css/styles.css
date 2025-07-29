@@ -196,7 +196,8 @@ img {
   color: #434455;
 }
 /* SECTION 4 */
-.section-four-title {
+.section-four-title,
+.section-title-four {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -229,6 +230,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /* FOOTER */
 .footer {
   background-color: #2e2f42;
