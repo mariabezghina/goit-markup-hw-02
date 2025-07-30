@@ -140,7 +140,6 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 24px;
-  padding: 0;
   margin: 0;
   list-style: none;
 }
@@ -200,12 +199,13 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #b6b9ee;
 }
 
 /* FOOTER */
-.footer {
+.page-footer {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .footer-logo {
@@ -216,14 +216,17 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
-.footer-logo-span {
+.logo-span {
   color: #f4f4fd;
 }
 
 .footer-text {
   line-height: 1.5;
-  color: var(--light-color, #f4f4fd);
+  color: var(--footer-text-color, #f4f4fd);
   letter-spacing: 0.02em;
+  max-width: 264px;
+  margin: 16px auto 0 auto;
 }
