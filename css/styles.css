@@ -48,8 +48,8 @@ a {
   color: #2e2f42;
 }
 
-.main-link:hover,
-.main-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
