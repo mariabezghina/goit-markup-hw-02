@@ -17,14 +17,7 @@ a {
 }
 
 /* Header */
-.page-header {
-  font-weight: 500;
-  background-color:  #e7e9fc;
-  text-align: center;
-}
-
-
-.page-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -32,15 +25,13 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
-.page-logo span {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
-
-.menu-link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,7 +46,6 @@ a {
 
 .contacts {
   font-style: normal;
-  margin-left: auto;
 }
 
 .contacts-link {
