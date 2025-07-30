@@ -18,8 +18,9 @@ a {
 
 /* Header */
 .page-header {
-  background-color:  #e7e9fc;
   font-weight: 500;
+  background-color:  #e7e9fc;
+  text-align: center;
 }
 
 
